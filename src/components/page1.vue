@@ -24,7 +24,7 @@ function deleteTask(index) {
     <h1>Мои дела</h1>
 
     <!-- Поле ввода и кнопка -->
-    <input v-model="text" placeholder="Напиши что-нибудь..." />
+    <input v-model="text" placeholder="Напишите что-нибудь..." />
     <button @click="addTask">Добавить</button>
 
     <!-- Список дел -->
